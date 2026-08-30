@@ -1,0 +1,16 @@
+name: zscoreboad
+version: '1.0-SNAPSHOT'
+main: de.zscoreboad.zscoreboad.Zscoreboad
+api-version: '1.21'
+folia-supported: true
+authors: [ MrZitrrone ]
+description: a scoreboad plugin
+softdepend: [PlaceholderAPI]
+commands:
+  scoreboad:
+    description: Toggle the scoreboard or reload the config
+    usage: /scoreboad [reload]
+permissions:
+  zscoreboad.reload:
+    description: Allows reloading the scoreboard config
+    default: op
